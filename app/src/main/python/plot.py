@@ -2,6 +2,7 @@ import io
 import matplotlib.pyplot as plt
 
 def plot(x, y):
+
     xa = [float(word) for word in x.split()]
     ya = [float(word) for word in y.split()]
 
