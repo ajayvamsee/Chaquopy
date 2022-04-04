@@ -25,6 +25,7 @@ android {
                 install "matplotlib"
             }
         }
+        
     }
 
     buildTypes {
@@ -40,6 +41,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    ndkVersion ndkVersion
 }
 
 dependencies {
